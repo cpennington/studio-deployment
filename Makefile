@@ -88,8 +88,7 @@ REQ_FILES = \
 	requirements/edx-sandbox/py35 \
 	requirements/edx/base \
 	requirements/edx/testing \
-	requirements/edx/development \
-	scripts/xblock/requirements
+	requirements/edx/development
 
 compile-requirements: export CUSTOM_COMPILE_COMMAND=make upgrade
 compile-requirements: ## Re-compile *.in requirements to *.txt
